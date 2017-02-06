@@ -52,6 +52,7 @@ img{
 .top-img{
     width:1.75rem;height:1.07rem;
     background:url(../image/denglu.png);
+    background-size:1.75rem 1.07rem;
     margin:0 auto;
     margin-top:1.06rem;
 }
