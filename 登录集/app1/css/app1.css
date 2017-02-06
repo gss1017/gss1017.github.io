@@ -1,4 +1,4 @@
-html{
+﻿html{
     font-family:"微软雅黑";
     font-size:100px;
 }
@@ -56,23 +56,23 @@ img{
     margin-top:1.06rem;
 }
 .bottom{
-    width:7.50rem;height:8.58rem;
+    width:7.5rem;height:8.58rem;
     padding-top:1rem;
     background:#f2f2f2;
     margin:0 auto;
 }
 .bottom-font{
     width:5.80rem;height:0.25rem;
+    margin:0 auto;
     margin-top:1.45rem;
-    margin-left:0.77rem;
     font-size:0.24rem;
     color:#0a196b;
     line-height:0.25rem;
 }
 .bottom-font1{
     width:1.35rem;height:0.25rem;
+    margin:0 auto;
     margin-top:0.18rem;
-    margin-left:5.55rem;
     font-size:0.24rem;
     color:#0a196b;
     line-height:0.25rem;
@@ -88,7 +88,7 @@ img{
 #bottom-input{
     display:block;
     width:6.16rem;height:0.88rem;
-    border:1rem solid #3a91fd;
+    /*border:1rem solid #3a91fd;*/
     border-radius:0.44rem;
     padding-left:1.22rem;
     font-size:0.26rem;
