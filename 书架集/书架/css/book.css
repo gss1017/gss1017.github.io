@@ -337,19 +337,24 @@ img{
 }
 .checkbox a{
     display:block;
+    width:2.50rem;height:1.00rem;
     color:#67686a;
+    float:left;
 }
+/*.checkbox:after{*/
+    /*display:block;*/
+    /*content:"";*/
+    /*clear:both;*/
+/*}*/
 .radio{
     width:2.50rem;height:1.00rem;
     background:#141b29;
     padding-top:0.02rem;
-    float:left;
 }
 .radio1{
     width:2.50rem;height:1.00rem;
     background:#151c2b;
     padding-top:0.02rem;
-    float:left;
 }
 
 .radio-n{
