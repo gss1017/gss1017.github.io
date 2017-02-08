@@ -53,6 +53,7 @@ img{
 .top-img{
     width:1.75rem;height:1.07rem;
     background:url(../image/denglu.png);
+    background-size:1.75rem 1.07rem;
     margin:0 auto;
     margin-top:0.37rem;
 }
@@ -150,8 +151,8 @@ img{
     float:left;
 }
 .bottom-a div{
-    width:0.88rem;height:0.25rem;
-    margin-left:0.20rem;
+    width:1rem;height:0.25rem;
+    margin-left:0.15rem;
     font-size:0.20rem;
     float:left;
     color:#666666;

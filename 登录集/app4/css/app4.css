@@ -53,19 +53,21 @@ img{
 .top-img{
     width:1.75rem;height:1.07rem;
     background:url(../image/denglu.png);
+    background-size:1.75rem 1.07rem;
     margin:0 auto;
     margin-top:0.37rem;
 }
 .top-circle a{
     display:block;
     width:0.44rem;height:0.44rem;
-}
-.top-circle{
-    width:0.44rem;height:0.44rem;
     background:#fafafa;
     text-align:center;
     border:0.02rem solid #076cbe;
     border-radius:50%;
+    line-height:0.38rem;
+}
+.top-circle{
+    width:0.44rem;height:0.44rem;
     font-size:0.3rem;
     position:absolute;
     top:0.67rem;left:0.25rem;
@@ -156,8 +158,8 @@ img{
     float:left;
 }
 .bottom-a div{
-    width:0.88rem;height:0.25rem;
-    margin-left:20rem;
+    width:1rem;height:0.25rem;
+    margin-left:0.15rem;
     font-size:0.20rem;
     float:left;
     color:#666666;
