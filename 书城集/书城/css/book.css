@@ -254,7 +254,7 @@ img{
     width:0.30rem;height:0.62rem;
     float:left;
     background:url(../image/circle.png) no-repeat 0 0.06rem;
-    background-size:0.3rem 0.62rem;
+    background-size:0.3rem 0.3rem;
 }
 .bottom-label-right{
     width:2.30rem;height:0.62rem;
