@@ -9,7 +9,7 @@ a{
 }
 /*轮播内容*/
 .c1 {
-    width: 100%;
+    width: auto;
     height: auto;
     border: 1px solid #fff;
     margin: 0 auto;
