@@ -86,138 +86,86 @@ body{
     font-size:22px;
     text-align:center;
 }
-
-.family{
-    width:100%;height:686px;
-    background:#fff;
-    padding-top:1px;
-}
-.fm-font{
-    width:100%;height:56px;
-    font-size:18px;
-    line-height:26px;
-    color:#929292;
-    text-align:center;
-    margin-top:45px;
-}
-.fm-solid{
-    width:127px;height:1px;
-    margin:0 auto;
-    border-bottom:1px solid rgba(146, 146, 146, 0.22);
-    margin-top:10px;
-}
-.fm-font1{
-    width:100%;height:40px;
-    font-size:14px;
-    line-height:22px;
-    color:#3a3a3a;
-    text-align:center;
-    margin-top:15px;
-}
-.fm-box{
-    width:885px;height:370px;
+.zb{
+    width:1198px;height:54px;
     margin:0 auto;
     margin-top:30px;
+    padding-left:2px;
 }
-.fm-boxl{
-    width:426px;height:370px;
-    float:left;
-}
-.fm-boxr{
-    width:426px;height:370px;
-    float:right;
-}
-.fm-boxl1{
-    width:426px;height:240px;
-    background:url(../image/jhjg.jpg);
-}
-.fm-boxl1 a{
+.menu a{
     display:block;
-    width:425px;height:240px;
-    padding-top:1px;
-}
-.fm-boxl1-demo{
-    width:426px;height:50px;
-    background: rgba(0, 0, 0, 0.3);
-    margin-top:190px;
-    line-height:50px;
-    color:#eee;
+    width:259px;height:48px;
+    border:3px solid #2b9bd6;
     font-size:20px;
-    text-align:right;
-    opacity:0;
-}
-.fm-boxl1-demo:hover{
-    opacity:1;
-}
-.fm-bottom-left{
-    width:260px;height:130px;
-    float:left;
-}
-.fm-box-font{
-   width:180px;height:45px;
-    line-height:45px;
-    font-size:16px;
-    color:#a4a4a4;
-}
-.fm-box-font1{
-    width:260px;height:80px;
-    line-height:22px;
-    font-size:12px;
-    color:#a4a4a4;
-}
-.xinxi{
-    width:100%;height:786px;
-
-}
-.xinxi-font{
-    width:100%;height:20px;
-    font-size:16px;
+    color:#5a5a5a;
+    line-height:48px;
     text-align:center;
-    color:#7c7c7c;
-    margin-top:30px;
 }
-.xinxi-font1{
-    width:100%;height:42px;
-    font-size:12px;
-    text-align:center;
-    line-height:22px;
-    color:#7c7c7c;
-    margin-top:10px;
-}
-.xinxi-box{
-    width:890px;height:225px;
+.show{
+    width:1200px;height:474px;
+    background:#fff;
     margin:0 auto;
-    margin-top:90px;
-    border-bottom:1px solid #c1c1c1;
+    margin-top:40px;
 }
-.xinxi-boxl{
-    width:175px;height:175px;
-    background:url(../image/toux.jpg) no-repeat -30px 0;
-    border-radius:50%;
+.show-item{
+    width:318px;height:427px;
+    float:left;
+    margin-top:25px;
+    margin-left:2px;
+}
+.show-font{
+    width:190px;height:190px;
+    margin-top:27px;
+    margin-left:86px;
+}
+.solid{
+    width:123px;height:1px;
+    border-bottom:1px solid #b7b7b7;
+}
+.show-font1{
+    width:185px;height:165px;
+    margin-top:24px;
+    font-size:12px;
+    color:#5a5a5a;
+    line-height:22px;
+}
+.show-shop{
+    width:374px;height:426px;
+    border:1px solid #000000;
+    background:#f8f6f6;
+    margin-top:25px;
+    margin-left:53px;
     float:left;
 }
-.xinxi-boxr{
-    width:660px;height:225px;
+.shop-img{
+    width:374px;height:375px;
+}
+.shop-name{
+    width:374px;height:41px;
+    line-height:41px;
+    font-size:20px;
+    text-align:center;
+    color:#5a5a5a;
+}
+.circle{
+    width:91px;height:32px;
+    margin:0 auto;
+    margin-top:40px;
+}
+.circle li{
+    width:32px;height:32px;
+    border-radius:50%;
+    background:#fff;
+    float:left;
+}
+.circle li:last-child{
     float:right;
-}
-.xinxi-box-font{
-    width:120px;height:38px;
-    line-height:38px;
-    color:#7c7c7c;
-    font-size:14px;
-}
-.xinxi-box-font1{
-    width:330px;height:35px;
-    line-height:22px;
-    color:#a4a4a4;
-    font-size:12px;
-    margin-top:15px;
+    background:#c4c2c2;
 }
 .zuji-left-bm{
     width:155px;height:41px;
     background:#2b9bd6;
-    margin-top:85px;
-    float:right;
+    margin-top:110px;
 }
 .zuji-left-bm a{
     display:block;
@@ -237,16 +185,7 @@ body{
     margin-right:30px;
     float:right;
 }
-.zuji-left-bm1{
-    width:155px;height:41px;
-    background:#2b9bd6;
-    margin-top:50px;
 
-}
-.zuji-left-bm1 a{
-    display:block;
-    width:155px;height:41px;
-}
 .bottom{
     width:100%;height:848px;
     padding-top:1px;
