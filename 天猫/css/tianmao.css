@@ -972,7 +972,7 @@ img{
     float:left;
 }
 .zm-tleft:hover{
-    border:1px solid red;
+    outline:1px solid red;
 }
 .zm-tleft-top{
     width:614px;height:70px;
