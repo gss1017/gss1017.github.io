@@ -19,6 +19,16 @@ a{
 img{
     padding:0;margin:0;
 }
+@media screen and (max-width:414px){
+    html{
+        font-size:55.2px;
+    }
+}
+@media screen and (max-width:412px){
+    html{
+        font-size:54.93333px;
+    }
+}
 @media screen and (max-width:375px){
     html{
         font-size:50px;
