@@ -724,7 +724,7 @@ a{
     text-align:center;
     color:#333333;
 }
-.atme-box li:last-child{
+.atme-box a:last-child{
     border-right:none;
 }
 .atme-font{
