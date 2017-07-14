@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/angular.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body ng-controller="ctrl">
+<div class="mask" ng-click="flag1=false" ng-show="flag1"></div>
+<div class="left">
+    <div class="left-top">
+        <div class="logo">iCloud</div>
+        <div class="setting" ng-click="addList()">
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <ul class="left-list">
+        <li ng-repeat="v in todos track by $index" ng-class="{'active':$index==index}"
+            ng-click="selectedItem($index)">
+            <div class="circle" ng-style="{background:v.color}"></div>
+            <p class="left-title">{{v.title}}</p>
+        </li>
+    </ul>
+</div>
+<div class="right">
+   <div class="right-top">
+       <input type="text" placeholder="输入提醒" class="into">
+   </div>
+    <div class="content">
+        <div class="right-title">
+            <p ng-style="{color:todos[index].color}">{{todos[index].title}}</p>
+            <a href="javascript:;" ng-style="{color:todos[index].color}" ng-click="issel()">选项</a>
+            <div class="wshow" ng-show="flag1">
+                <div class="intotit">
+                    <div class="intobox">
+                        <input type="text" name="shuru" ng-model="sname" ng-style="{color:scolor}">
+                    </div>
+                    <div class="clist">
+                        <p>列表颜色</p>
+                        <ul>
+                            <li ng-repeat="c in colors" ng-style="{backgroundColor:c,borderColor:c==scolor?scolor:''}" ng-click="setcolor($index)"></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="fbottom">
+                    <a href="javascript:;" ng-click="delList()">删除</a>
+                    <div class="bright">
+                        <a href="javascript:;" ng-click="flag1=false">取消</a> |
+                        <a href="javascript:;" ng-click="update()">完成</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="innercon">
+            <div class="state">
+                <div class="sj" ng-class="{'active':flag}">
+                    <span ng-click="rotates()"></span>
+                </div>
+                <p>已完成项目：{{maxlen}}项</p>
+                <a href="javascript:;" ng-style="{color:todos[index].color}" ng-click="delItem()" ng-show="flag">清除所有完成项</a>
+            </div>
+            <div class="right-listbox">
+                <div class="list">
+                    <div class="date">完成时间：2017-08-08</div>
+                    <ul ng-show="flag">
+                        <li class="item" ng-repeat="v in todos[index]['todos']|filter:true track by $index">
+                            <span ng-style="{backgroundColor:todos[index].color,borderColor:todos[index].color}" ng-click="nocon(v)"></span>
+                            <p>{{v.title}}</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="dlist">
+                    <ul>
+                        <li class="ditem" ng-repeat="v in todos[(index)]['todos']|filter:false track by $index">
+                            <span ng-style="{borderColor:todos[index].color}" ng-click="suc(v)"></span>
+                            <p><input type="text" name="title" id="tit" ng-model="v.title"></p>
+                        </li>
+                    </ul>
+                    <a href="javascript:;" ng-style="{color:todos[index].color}" ng-click="addCon(index)">新项目...</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

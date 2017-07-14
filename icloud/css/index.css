@@ -1,0 +1,337 @@
+html{
+    height:100%;
+}
+body,h1,h2,h3,p,ul,li,span{
+    list-style: none;
+    padding:0;margin:0;
+}
+body{
+    min-width:1000px;
+    height:100%;
+    background:#eee;
+    position: relative;
+}
+img{
+    border:0;
+
+}
+input{
+    padding:0;margin:0;
+    outline: 0;
+}
+a{
+    color: #fe1d8a;
+    text-decoration: none;
+
+}
+.left{
+    width:30%;
+    background:#383836;
+    float:left;
+}
+.right{
+    width:70%;
+    height:100%;
+    float:left;
+    background:url(../images/bg.bmp) repeat;
+    overflow: hidden;
+}
+.left-top{
+    width:100%;
+    height:43px;
+    border-bottom:1px solid #000;
+}
+.logo{
+    float:left;
+    margin-left:50px;
+    line-height:43px;
+    font-size:22px;
+    color:#fff;
+}
+.setting{
+    float:right;
+    width:23px;height:23px;
+    margin:10px;
+    position:relative;
+    cursor:pointer;
+}
+.setting span{
+    display:block;
+    width:100%;
+    height:1px;
+    background:#ccc;
+    position: absolute;
+    top:11px;
+}
+.setting span:last-child{
+    transform:rotate(90deg);
+}
+.setting span:hover{
+    background:#fff;
+}
+.left-list{
+    overflow-y:auto;
+}
+.left-list>li.active{
+    background:#333;
+}
+.left-list>li{
+    width:100%;height:45px;
+    background:#666;
+    border-bottom: 1px solid #000;
+    cursor: pointer;
+}
+.circle{
+    width:17px;height:17px;
+    background:yellow;
+    margin:14px;
+    float:left;
+    border-radius:50%;
+}
+.left-title{
+    line-height:45px;
+    font-size:14px;
+    color:#ccc;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    box-sizing: border-box;
+    padding-left:15px;
+    padding-right:15px;
+}
+.right-top{
+    width:100%;height:43px;
+    border-bottom: 1px solid #ccc;
+}
+.into{
+    width:50%;
+    border:0;outline:0;
+    height:43px;
+    padding-left:15px;
+    background:rgba(0,0,0,0);
+}
+.into:focus{
+    border-right:1px solid #ccc;
+    background:#fff;
+}
+.content{
+    width:100%;
+    height:100%;
+    padding-left:30px;
+    box-sizing:border-box;
+}
+.right-title{
+    width:100%;height:90px;
+    border-bottom:1px solid #ccc;
+    position:relative;
+}
+
+.right-title>p{
+    height:90px;
+    font-size:46px;
+    color:#666;
+    line-height:110px;
+    float:left;
+}
+.right-title>a{
+    display:block;
+    height:90px;
+    font-size:18px;
+    color:#666;
+    line-height:140px;
+    float:right;
+    margin-right:30px;
+}
+.innercon{
+    width:100%;
+    height:100%;
+    padding-left:30px;
+    box-sizing:border-box;
+}
+.state{
+    width:100%;height:50px;
+    border-bottom:1px solid #ccc;
+}
+.sj{
+    float:left;
+    width:50px;height:50px;
+}
+.sj>span{
+    display:block;
+    border:10px solid transparent;
+    border-left:20px solid #333;
+    border-left-width:14px;
+    margin-top:15px;
+    margin-left:20px;
+    cursor: pointer;
+}
+.sj.active{
+    transform: rotate(90deg);
+}
+.state>p{
+    display: block;
+    font-size:22px;
+    color:#666;
+    line-height:50px;
+    float:left;
+    margin-left:15px;
+}
+.state>a{
+    display:block;
+    font-size:22px;
+    color:#666;
+    line-height:50px;
+    float:right;
+    margin-right:30px;
+}
+.date{
+    width:100%;height:45px;
+    line-height:45px;
+    font-size:20px;
+    color:#666;
+    border-bottom:1px solid #ccc;
+}
+.item{
+    width:100%;
+    height:50px;
+    border-bottom:1px solid #ccc;
+}
+.item>span{
+    display:block;
+    width:15px;height:15px;
+    background:#00aa00;
+    padding:5px;
+    border:3px solid #0AA6E8;
+    background-clip:content-box;
+    border-radius: 50%;
+    margin:10px;
+    float:left;
+    cursor:pointer;
+}
+.item>p{
+    line-height:50px;
+    font-size:16px;
+    padding-left:10px;
+    float:left;
+}
+.dlist{
+    margin-top:20px;
+}
+.ditem{
+    width:100%;
+    height:50px;
+    border-bottom:1px solid #ccc;
+}
+.ditem>span{
+    display:block;
+    width:15px;height:15px;
+    padding:5px;
+    background-clip:content-box;
+    border:3px solid #0AA6E8;
+    border-radius: 50%;
+    margin:10px;
+    float:left;
+    cursor:pointer;
+}
+.ditem>p{
+    line-height:50px;
+    font-size:16px;
+    padding-left:60px;
+    outline: 0;
+}
+#tit{
+    width:100%;height:100%;
+    border:0;
+    background:rgba(0,0,0,0);
+}
+.dlist>a{
+    display:block;
+    font-size:22px;
+    color:#666;
+    line-height:50px;
+    margin-left:30px;
+}
+.right-listbox{
+    height:550px;
+    box-sizing:border-box;
+    padding-bottom:80px;
+    overflow-y:auto;
+}
+/*设置样式*/
+.wshow{
+    width:364px;height:236px;
+    background:#fff;
+    padding:5px;
+    position: absolute;
+    top:-40px;right:80px;
+    border-radius: 6px;
+    z-index:10;
+}
+.intotit{
+    width:100%;height:152px;
+    border:2px solid #f1f1f1;
+    box-sizing: border-box;
+}
+.intobox{
+    width:315px;height:45px;
+    margin:0 auto;
+    margin-top:20px;
+
+}
+.intobox>input{
+    display: block;
+    width:315px;height:45px;
+    padding-left:15px;
+    box-sizing: border-box;
+    font-size:16px;
+}
+.clist{
+    width:100%;
+}
+.clist>p{
+    width:315px;height:20px;
+    margin:0 auto;
+    font-size:14px;
+    line-height:20px;
+    color:#666;
+    margin-top:15px;
+}
+.clist>ul{
+    width:315px;
+    margin:0 auto;
+    display: flex;
+    justify-content:space-between;
+    padding:5px;
+}
+.clist>ul li{
+    width:25px;height:25px;
+    background:red;
+    border:2px solid transparent;
+    padding:5px;
+    background-clip:content-box;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.fbottom{
+    width:315px;
+    margin:0 auto;
+    font-size:14px;
+    line-height:75px;
+}
+.fbottom>a{
+    color:#666;
+    float:left;
+}
+.bright{
+    float:right;
+}
+.bright a{
+    color:#666;
+}
+.mask{
+    width:100%;height:100%;
+    position: absolute;
+    top:0;left:0;
+    background:rgba(9,0,0,.5);
+    z-index:9;
+}
