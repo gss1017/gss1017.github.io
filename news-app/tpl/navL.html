@@ -1,0 +1,48 @@
+<div class="select" >
+    <div class="select-title">
+        <div class="login">
+            <img src="images/head.png" alt="">
+            请登录
+        </div>
+        <div class="save">
+            <div class="shoucang">
+                <apan>&#xe601;</apan>
+                <a href="">我的收藏</a>
+            </div>
+            <div class="shoucang">
+                <apan>&#xe600;</apan>
+                <a href="">离线下载</a>
+            </div>
+        </div>
+    </div>
+    <div class="select-index">
+        <span>&#xe603;</span>
+        <span class="xuanxiang">
+            <a href="#/" style="color: #00a3ed">主页</a>
+        </span>
+    </div>
+    <ul class="xuanxiang">
+        <li class="select-content "  ng-repeat="v in data">
+            <!--日常心理学-->
+            <span >
+                <a href="#/list/{{v.id}}"  style="color: black">{{v.name}}</a>
+            </span>
+            <!--{{v.name}}-->
+            <div class="jiantou ">
+                <span></span>
+                <span></span>
+            </div>
+        </li>
+    </ul>
+
+</div>
+<header >
+    <div class="kuang">
+        <span class="xuanxiang">&#xe6cd;</span>
+        <span >{{name}}</span>
+            <div >
+               <span>&#xe600;</span>
+            </div>
+
+    </div>
+</header>

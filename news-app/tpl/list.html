@@ -1,0 +1,17 @@
+<div navl></div>
+<div class="list-b" style="background-image:url({{b}})">
+<div >{{d}}</div>
+</div>
+
+<div class="title">
+    <div >主编</div>
+    <ul >
+        <li ng-repeat="v in edit" style="background-image:url({{v.avatar}})"></li>
+
+    </ul>
+</div>
+<news ng-repeat='v in data1'
+      imgurl="{{v.images[0]||'http://pic4.zhimg.com/1c4d1cd8edb7ed1e2045109c79870127_t.jpg'}}"
+
+title="{{v.title}}" link="#/show/{{v.id}}"></news>
+<!--||'http://pic4.zhimg.com/1c4d1cd8edb7ed1e2045109c79870127_t.jpg'-->

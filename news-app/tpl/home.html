@@ -1,0 +1,15 @@
+<!--主页模板-->
+
+<div navh></div>
+<div banner></div>
+<div class="title">
+    今日新闻
+</div>
+<news ng-repeat='v in data1'
+      imgurl="{{v.images[0]}}"
+      title="{{v.title}}"
+      link="#/shownews/{{v.id}}">
+</news>
+
+
+
